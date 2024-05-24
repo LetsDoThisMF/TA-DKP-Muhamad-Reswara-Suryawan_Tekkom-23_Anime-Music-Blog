@@ -78,7 +78,7 @@
                             <img src="img/GirlsBandCry.png" alt="Description of the image" width="200" height="200">
                             <br>
                             <audio id="song3" controls >
-                            <source src="Songs/WrongWorld.wav"type="audio/wav">
+                            <source src="Songs/WrongWorld.mp3"type="audio/mp3">
                                 This browser does not support HTML5 audio
                             </audio>
                             <p>
