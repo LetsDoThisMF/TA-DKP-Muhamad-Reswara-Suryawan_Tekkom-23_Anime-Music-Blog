@@ -21,11 +21,6 @@ class User {
 
 session_start();
 
-if (isset($_SESSION['username'])) {
-    header("Location: welcome.php");
-    exit();
-}
-
 if (isset($_POST['submit'])) {
     $user = new User($_POST['username'], $_POST['password']);
     $valid_user = new User("LetsDoThis", "Reza2005");
