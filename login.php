@@ -1,12 +1,6 @@
 <?php 
   include_once 'header.php';
 ?>
-<section class="index-intro">
-     <?php
-        if(isset($_SESSION["userid"])){
-            echo "<p>Welcome " . $_SESSION["useruid"] . "</p>";
-            }
-     ?>
 
 <?php
 class User {
@@ -20,6 +14,11 @@ class User {
 }
 
 session_start();
+
+if (isset($_SESSION['username'])) {
+    header("Location: welcome.php");
+    exit();
+}
 
 if (isset($_POST['submit'])) {
     $user = new User($_POST['username'], $_POST['password']);
