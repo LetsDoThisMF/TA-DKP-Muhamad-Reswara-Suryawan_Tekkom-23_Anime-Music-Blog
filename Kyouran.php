@@ -1,12 +1,7 @@
 <?php 
   include_once 'header.php';
 ?>
-    <section class="index-intro">
-         <?php
-            if(isset($_SESSION["userid"])){
-                echo "<p>Welcome " . $_SESSION["useruid"] . "</p>";
-                }
-         ?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
