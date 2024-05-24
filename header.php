@@ -23,13 +23,7 @@
                 <li><a href="music.php">Trending Music</a></li>
                 <li><a href="quiz.php">Quiz</a></li>
                 <li><a href="aboutus.php">About Us</a></li>
-                <?php
-                    if(isset($_SESSION["userid"])){
-                        echo "<li><a href='includes/logout.inc.php'>Log out</a></li";
-                        }
-                    else {
-                        echo "<li><a href='login.php'>Log In</a></li";
-                        }
+                <li><a href='login.php'>Log In</a></li";
                 ?>
             </ul>
         </nav>
