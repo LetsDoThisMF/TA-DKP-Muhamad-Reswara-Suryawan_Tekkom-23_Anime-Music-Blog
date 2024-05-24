@@ -7,8 +7,8 @@
             echo "<p>Welcome " . $_SESSION["useruid"] . "</p>";
             }
      ?>
-<?php
 
+<?php
 class User {
     public $username;
     public $password;
@@ -19,13 +19,7 @@ class User {
     }
 }
 
-include_once 'header.php';
-
 session_start();
-
-if(isset($_SESSION["userid"])){
-    echo "<p>Welcome " . $_SESSION["useruid"] . "</p>";
-}
 
 if (isset($_SESSION['username'])) {
     header("Location: welcome.php");
