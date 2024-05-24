@@ -1,13 +1,6 @@
 <?php 
   include_once 'header.php';
 ?>
-<section class="index-intro">
-    <?php
-        if (isset($_SESSION["userid"])) {
-            echo "<p>Welcome " . $_SESSION["useruid"] . "</p>";
-        }
-    ?>
-</section>
 
 <!DOCTYPE html>
 <html lang="en">
