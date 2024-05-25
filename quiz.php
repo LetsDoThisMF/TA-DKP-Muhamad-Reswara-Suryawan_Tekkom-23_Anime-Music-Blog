@@ -29,7 +29,7 @@
 <section class="quiz">
     <h2>Guess the Anime by Song!</h2>
 
-    <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+    <form method="post" action="quiz.php">
         <?php
         $questions = [
             ["What anime is this song from?", "img/Specialz.png", "Songs/Specialz.mp3", ["a) Naruto", "b) Vinland Saga", "c) Neon Genesis Evangelion", "d) Jujutsu Kaisen"], "d"],
